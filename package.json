@@ -1,0 +1,21 @@
+{
+  "name": "nice-config-loader",
+  "version": "0.1.0",
+  "description": "Load configurations from various sources based on reasonable overwrite patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "Tom Klinovsky",
+  "license": "MIT",
+  "dependencies": {
+    "nconf": "^0.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
