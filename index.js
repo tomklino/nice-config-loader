@@ -2,19 +2,21 @@ const nconf = require('nconf');
 const path = require('path');
 
 module.exports = function configLoader(options) {
-  options = options || {};
-  const { home_dir = __dirname } = options;
+  const { home_dir = __dirname } = options || {};
 
   nconf
     .argv()
-    .env('__')
+    .env({
+      separator: '__',
+      lowerCase: true
+    })
 
   nconf.file('config', {
-    file: nconf.get('CONFIG_FILE') || path.join(home_dir, 'config.json')
+    file: nconf.get('config_file') || path.join(home_dir, 'config.json')
   })
 
   nconf.file('secrets', {
-    file: nconf.get('SECRETS_FILE') || path.join(home_dir, 'secret_settings.json')
+    file: nconf.get('secrets_file') || path.join(home_dir, 'secret_settings.json')
   })
 
   nconf.file('defaults', {
