@@ -49,7 +49,3 @@ describe("reading config from defaults", function() {
     expect(config.get('another_key')).to.eql('value_from_arg')
   })
 })
-
-describe("api tests", function() {
-
-})
