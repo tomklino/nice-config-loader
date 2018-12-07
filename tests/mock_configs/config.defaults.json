@@ -1,3 +1,11 @@
 {
-  "mock_key": "mock_value"
+  "mock_key": "mock_value",
+  "overwritten_in_config": "not_overwritten",
+  "a_secret": "dummySecretInDefaults",
+  "some_key": "value_set_from_defaults",
+  "object": {
+    "key_1": "value_set_from_defaults",
+    "key_2": "value_set_from_defaults",
+    "key_3": "value_set_from_defaults"
+  }
 }

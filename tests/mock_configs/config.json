@@ -1,0 +1,9 @@
+{
+  "overwritten_in_config": "overwritten",
+  "another_key": "value_set_from_conf",
+  "a_secret": "secret_value",
+  "some_key": "value_set_from_conf",
+  "object": {
+    "key_2": "value_set_from_conf"
+  }
+}
