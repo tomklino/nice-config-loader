@@ -1,6 +1,6 @@
 {
   "name": "nice-config-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Load configurations from various sources based on reasonable overwrite patterns",
   "main": "index.js",
   "scripts": {
