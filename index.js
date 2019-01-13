@@ -2,7 +2,7 @@ const nconf = require('nconf');
 const path = require('path');
 
 module.exports = function configLoader(options) {
-  const { home_dir = __dirname } = options || {};
+  const { home_dir = process.cwd() } = options || {};
 
   nconf
     .argv()
