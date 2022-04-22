@@ -13,7 +13,7 @@
   "author": "Tom Klinovsky",
   "license": "MIT",
   "dependencies": {
-    "nconf": "^0.10.0"
+    "nconf": "^0.11.4"
   },
   "devDependencies": {
     "chai": "^4.2.0",
